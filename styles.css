@@ -2,11 +2,39 @@
 /* Comments look like this. */
 
 /* This ruleset defines the styling for the entire body of your HTML document. */
+header {
+    font-size: 100px;
+}
 body {
     /* Change this background-color. */
-    background-color: white;
+    background-color:lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-
+h1{
+    color: rgb(6, 6, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(173, 53, 173);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    color: rgb(241, 15, 53);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li{
+    color:rgb(6, 6, 92);
+    font-size: medium;
+}
+p{
+    color: rgb(31, 90, 39);
+    font-size:x-large;
+}
+button{
+    color: rgb(135, 122, 250);
+    background-color: rgb(21, 8, 134);
+}
 /* This defines styling for all your p elements */
 
 p {
